@@ -1,0 +1,15 @@
+app:
+  name: poi-map-app-ryanj
+  namespace: user11
+  cluster: .apps.cluster-2w7cf.2w7cf.sandbox1883.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/backstage-2w7cf/ryanj-map-test-1
+  org: backstage-2w7cf
+  name: ryanj-map-test-1
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: user11/poi-map-app-ryanj
+  tag: latest
